@@ -1,1 +1,7 @@
 # Degree-planner
+A degree planner helps students to pick classes to fulfill all requirements for getting a specified major at college. A prototype works for a Computer Science major. In easily understandable and entertaining form, students will be led through official requirements regarding number of units and classes. The application helps students to understand which classes he or she is required to take and choose the preferable classes to fulfill general education requirements. Also, the application distinguishes requirements for getting the desired major from Sierra College and for a transfer degree.
+The application implements the following algorithm. A student is asked what classes he or she has already taken and number of taken units. After getting a student’s response, the application displays the general requirement toward their specified degree, particularly what major classes need to be taken. 
+Next, the application helps the user to pick classes within general education requirements. Students will be prompted to pick an area that is the most interesting for them (e.g. history, literature, social science, etc) and according to their choice, they will be offered the available classes. 
+The application also counts number of necessary units, and display to user how many classes he/she still need to take. 
+To run an application the file exec.sh should be executed in command line like this:
+./exec.sh
